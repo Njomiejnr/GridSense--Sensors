@@ -18,15 +18,13 @@ It continuously monitors and adjusts energy usage to maintain stability and effi
 
 
 Objective
+To design an intelligent energy management system that demonstrates the following advantages:
 
-To design a system that demonstrates how intelligent energy management can:
+- Reduce dependence on unpredictable grid power.
+- Use renewable energy as efficiently as possible.
+- Verify the availability of power.
+- Cut back on fuel consumption.
 
-- Reduce dependence on unstable grid power
-- Optimize renewable energy usage
-- Ensure continuous power availability
-- Minimize fuel consumption
-
----
 
 ⚙️ Key Features
 
