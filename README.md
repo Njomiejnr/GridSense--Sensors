@@ -18,6 +18,7 @@ It continuously monitors and adjusts energy usage to maintain stability and effi
 
 
 Objective
+
 To design an intelligent energy management system that demonstrates the following advantages:
 
 - Reduce dependence on unpredictable grid power.
