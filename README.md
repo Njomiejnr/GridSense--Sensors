@@ -29,29 +29,28 @@ To design an intelligent energy management system that demonstrates the followin
 
  Key Features
 
-- Real-time simulation (updates every 3 seconds)
-- Time-based solar generation (day vs night)
-- npredictable grid availability (load shedding      simulation)
-- Dynamic battery charging and discharging
-- Smart fuel usage only when necessary
-- Continuous monitoring loop
+- Simulation in real time with updates every three seconds
+- Time-based solar energy production (day versus night)
+- Grid availability is unpredictable (load shedding   simulation).
+- Dynamic discharging and charging of batteries
+- The wise use of fuel only when required
+- A loop of continuous monitoring
 
 
+System Logic
 
-🧠 System Logic
-
-☀️ Solar Behavior
+•Solar Behavior
 
 - 06:00 – 17:00: MEDIUM or HIGH output
 - Night: LOW output
 
-⚡ Grid Power (ZESA)
+•Grid Power (ZESA)
 
 - More likely to be OFF than ON to simulate outages
 
-🔋 Battery System
+•Battery System
 
-- Discharges when:
+- Does not charge when:
   
   - Grid is OFF
   - Solar is LOW
@@ -62,7 +61,7 @@ To design an intelligent energy management system that demonstrates the followin
 
 - Maintained within safe limits (20% – 100%)
 
-⛽ Fuel Usage
+•Fuel Usage
 
 Fuel is only consumed when:
 
@@ -70,17 +69,16 @@ Fuel is only consumed when:
 - Solar is LOW
 - Battery is below 40%
 
----
 
-🖥️ Technologies Used
+
+Technologies Used
 
 - Python 3
 - "random" module (simulation logic)
 - "time" module (real-time updates)
 
----
 
-🚀 How to Run
+ How to Run
 
 1. Install Python or use Pydroid
 2. Clone or download this repository
@@ -90,9 +88,9 @@ python sensor.py
 
 4. The system will continuously output live energy data.
 
----
 
-👤 Role: Person B (Simulation Developer)
+
+ Role: Person B (Simulation Developer)
 
 As Person B, I was responsible for:
 
@@ -102,16 +100,16 @@ As Person B, I was responsible for:
 - Testing and debugging the application
 - Managing version control and updates on GitHub
 
----
 
-📈 Future Improvements
 
-- 📊 Add a graphical dashboard (UI)
-- 🌐 Integrate real IoT sensor data
-- 🚨 Implement alert systems (low battery warnings)
-- 💾 Store historical data for analysis
+ Future Improvements
 
----
+-  Add a graphical dashboard (UI)
+-  Integrate real IoT sensor data
+-  Implement alert systems (low battery warnings)
+-  Store historical data for analysis
+
+
 
 🌍 Real-World Relevance
 
