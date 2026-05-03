@@ -27,16 +27,16 @@ To design an intelligent energy management system that demonstrates the followin
 - Cut back on fuel consumption.
 
 
-⚙️ Key Features
+ Key Features
 
-- ⏱️ Real-time simulation (updates every 3 seconds)
-- 🌞 Time-based solar generation (day vs night)
-- ⚡ Unpredictable grid availability (load shedding simulation)
-- 🔋 Dynamic battery charging and discharging
-- ⛽ Smart fuel usage only when necessary
-- 🔄 Continuous monitoring loop
+- Real-time simulation (updates every 3 seconds)
+- Time-based solar generation (day vs night)
+- npredictable grid availability (load shedding      simulation)
+- Dynamic battery charging and discharging
+- Smart fuel usage only when necessary
+- Continuous monitoring loop
 
----
+
 
 🧠 System Logic
 
