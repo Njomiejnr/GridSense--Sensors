@@ -1,0 +1,131 @@
+GridSense
+
+Intelligent Energy Management System
+
+
+Project Synopsis 
+
+A smart energy management system called GridSense mimics how homes can effectively manage electricity in settings with erratic power sources.
+
+As the primary client controller, the system intelligently coordinates various energy sources:
+
+- Grid power (ZESA)
+- Solar energy
+- Battery storage
+- Alternative fuel (generator)
+
+It continuously monitors and adjusts energy usage to maintain stability and efficiency.
+
+
+Objective
+
+To design a system that demonstrates how intelligent energy management can:
+
+- Reduce dependence on unstable grid power
+- Optimize renewable energy usage
+- Ensure continuous power availability
+- Minimize fuel consumption
+
+---
+
+⚙️ Key Features
+
+- ⏱️ Real-time simulation (updates every 3 seconds)
+- 🌞 Time-based solar generation (day vs night)
+- ⚡ Unpredictable grid availability (load shedding simulation)
+- 🔋 Dynamic battery charging and discharging
+- ⛽ Smart fuel usage only when necessary
+- 🔄 Continuous monitoring loop
+
+---
+
+🧠 System Logic
+
+☀️ Solar Behavior
+
+- 06:00 – 17:00: MEDIUM or HIGH output
+- Night: LOW output
+
+⚡ Grid Power (ZESA)
+
+- More likely to be OFF than ON to simulate outages
+
+🔋 Battery System
+
+- Discharges when:
+  
+  - Grid is OFF
+  - Solar is LOW
+
+- Charges when:
+  
+  - Solar is HIGH
+
+- Maintained within safe limits (20% – 100%)
+
+⛽ Fuel Usage
+
+Fuel is only consumed when:
+
+- Grid is OFF
+- Solar is LOW
+- Battery is below 40%
+
+---
+
+🖥️ Technologies Used
+
+- Python 3
+- "random" module (simulation logic)
+- "time" module (real-time updates)
+
+---
+
+🚀 How to Run
+
+1. Install Python or use Pydroid
+2. Clone or download this repository
+3. Run the program:
+
+python sensor.py
+
+4. The system will continuously output live energy data.
+
+---
+
+👤 Role: Person B (Simulation Developer)
+
+As Person B, I was responsible for:
+
+- Designing and implementing the core simulation logic
+- Developing realistic energy behavior (solar, grid, battery, fuel)
+- Improving system efficiency and decision-making logic
+- Testing and debugging the application
+- Managing version control and updates on GitHub
+
+---
+
+📈 Future Improvements
+
+- 📊 Add a graphical dashboard (UI)
+- 🌐 Integrate real IoT sensor data
+- 🚨 Implement alert systems (low battery warnings)
+- 💾 Store historical data for analysis
+
+---
+
+🌍 Real-World Relevance
+
+GridSense addresses real challenges faced in regions with:
+
+- Frequent power outages
+- High fuel costs
+- Increasing reliance on solar energy
+
+It demonstrates how intelligent systems can improve energy reliability and sustainability.
+
+---
+
+📜 License
+
+This project is for educational and demonstration purposes.
