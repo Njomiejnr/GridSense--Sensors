@@ -24,6 +24,7 @@ def get_sensor_data():
     elif solar == "HIGH":
         battery += random.randint(1, 3)
 
+    # Keep battery within limits
     battery = max(20, min(100, battery))
 
     # Fuel usage (only when needed)
@@ -40,8 +41,9 @@ def get_sensor_data():
         "time": time.strftime("%H:%M:%S")
     }
 
-
+# Run forever
 if __name__ == "__main__":
     while True:
-        print(get_sensor_data())
+        data = get_sensor_data()
+        print(data)
         time.sleep(3)
