@@ -111,18 +111,17 @@ As Person B, I was responsible for:
 
 
 
-🌍 Real-World Relevance
+Real-World Relevance
 
 GridSense addresses real challenges faced in regions with:
 
-- Frequent power outages
+- Frequent power outages such as Zimbabwe 
 - High fuel costs
 - Increasing reliance on solar energy
 
 It demonstrates how intelligent systems can improve energy reliability and sustainability.
 
----
 
-📜 License
+License
 
-This project is for educational and demonstration purposes.
+This project is for educational purposes, competitive purposes and demonstration purposes.
